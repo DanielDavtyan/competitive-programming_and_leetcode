@@ -1,0 +1,31 @@
+'''
+Given a signed 32-bit integer x, return x with its digits reversed.
+ If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+
+Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
+'''
+import math
+
+
+def reverse(x: int) -> int:
+    MIN = -2147483648
+    MAX = 2147483647
+
+    le = len(str(x)) - 1
+    res = 0
+    while x:
+        num = int(math.fmod(x, 10))
+        x = int(x / 10)
+        if (res > (MAX // 10) or
+                (res == MAX // 10 and x >= MAX % 10)):
+            return 0
+        if (res < MIN // 10 or
+                (res == MIN // 10 and x <= MIN % 10)):
+            return 0
+
+        res = (res * 10) + num
+
+    return res
+
+
+print(reverse(-1563847412))
