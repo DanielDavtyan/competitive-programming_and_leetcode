@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9ee2c17e-ab99-4610-ae0f-00987f376233" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/100. Same Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/100. Same Tree.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,14 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/10. Regular Expression Matching.py" root0="FORCE_HIGHLIGHTING" />
@@ -173,7 +182,8 @@
       <workItem from="1668507259386" duration="640000" />
       <workItem from="1668583134213" duration="3745000" />
       <workItem from="1669132056706" duration="1884000" />
-      <workItem from="1670423403179" duration="8611000" />
+      <workItem from="1670423403179" duration="19665000" />
+      <workItem from="1670676046332" duration="6367000" />
     </task>
     <servers />
   </component>
